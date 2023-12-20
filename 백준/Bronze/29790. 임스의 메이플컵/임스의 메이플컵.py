@@ -1,0 +1,1 @@
+print((lambda n,u,l:(('Very Good','Good')[u<8000 and l<260],'Bad')[n<1000])(*map(int,input().split())))
