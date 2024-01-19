@@ -1,0 +1,1 @@
+print(''.join(chr((ord(c)+13-(65,97)[ord(c)>=97])%26+(65,97)[ord(c)>=97])if c.isalpha() else c for c in input()))
