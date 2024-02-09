@@ -22,8 +22,8 @@ while True:
     t=l+1
     for i in range(t):
         if NL[l-i]>NL[r+i]:
-            NL[r+i]=NL[l-i]
             h(NL,l,r,t,i)
+            break
         elif NL[l-i]<NL[r+i]:
             f(NL,l,r,t)
             break
