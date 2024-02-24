@@ -14,11 +14,4 @@ for i in range(21):
                 if s2>=4:
                     print(('sk','ji')[k],i+1)
                     quit()
-            if s2>=4:
-                s=k+1
-                break
-        if s:
-            break
-    if s:
-        break
 print('ss')
