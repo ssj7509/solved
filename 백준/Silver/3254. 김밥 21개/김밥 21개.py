@@ -1,4 +1,4 @@
-V,L,t,r=((1,0),(0,1),(1,1),(1,-1)),[[0]*7 for _ in range(6)],[5]*7,'ss'
+V,L,t=((1,0),(0,1),(1,1),(1,-1)),[[0]*7 for _ in range(6)],[5]*7
 for i in range(21):
     X=[*map(int,input().split())]
     s=0
