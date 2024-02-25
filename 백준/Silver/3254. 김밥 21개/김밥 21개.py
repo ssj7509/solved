@@ -7,7 +7,7 @@ for i in range(21):
         L[y][x]=k+1
         for xv,yv in V:
             sx,sy=x-6*xv,y-6*yv
-            for j in range(12):
+            for j in range(11):
                 tx,ty=sx+j*xv,sy+j*yv
                 s=0<=tx<7 and 0<=ty<6 and L[ty][tx]==k+1 and s+1
                 if s>=4:
