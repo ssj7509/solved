@@ -15,5 +15,4 @@ for i in range(5):
                     c+=1
                     break
         if c>2:
-            print(i*5+j+1)
-            quit()
+            quit(print(i*5+j+1))
