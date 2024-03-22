@@ -1,7 +1,6 @@
 m,N,*L=map(int,['0',input()]+input().split())
-b=s=L[0]
+s=L[0]
 for n in L:
-    t=n>=s
-    b,s=t and max(b,n),(n,s)[t]
-    m=max(m,b-s)
+    s=min(s,n)
+    m=max(m,n-s)
     print(m,end=' ')
