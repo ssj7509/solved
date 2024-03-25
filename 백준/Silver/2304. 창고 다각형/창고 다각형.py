@@ -1,6 +1,6 @@
 import sys
 f,st,m,r=sys.stdin.readline,[],0,0
-for x,y in sorted(tuple(map(int,f().split()))for _ in range(int(f()))):
+for x,y in sorted([*map(int,f().split())]for _ in range(int(f()))):
     c,d=len(st) and x-st[-1][0],min(m,y)
     r+=y+d*(c-1)
     if not st or st[-1][1]>y:
