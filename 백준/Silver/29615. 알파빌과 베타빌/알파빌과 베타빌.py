@@ -1,7 +1,6 @@
 f=lambda:map(int,input().split())
-N,M,L,S=*f(),[*f()],{*f()}
-t,r=len(S),0
+N,M,L,S,r=*f(),f(),{*f()},0
 for s in (n in S for n in L):
-    x=(t>0)*(1-s)
-    t,r=t-s-x,r+x
+    x=(M>0)*(1-s)
+    M,r=M-s-x,r+x
 print(r)
