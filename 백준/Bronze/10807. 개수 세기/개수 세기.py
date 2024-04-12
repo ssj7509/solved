@@ -1,2 +1,2 @@
-_,*L,V=map(int,open(0).read().split())
+_,*L,V=open(0).read().split()
 print(L.count(V))
