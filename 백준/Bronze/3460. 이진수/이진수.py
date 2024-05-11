@@ -1,0 +1,1 @@
+print(*map(lambda x:' '.join(str(i)for i,n in enumerate(bin(int(x))[2:][::-1])if int(n)),[*open(0)][1:]))
