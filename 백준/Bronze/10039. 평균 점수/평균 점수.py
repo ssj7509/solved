@@ -1,0 +1,1 @@
+print(sum(map(lambda x:(40,int(x))[int(x)>40],[*open(0)]))//5)
