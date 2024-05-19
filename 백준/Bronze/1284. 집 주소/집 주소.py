@@ -1,0 +1,1 @@
+print(*[sum([4,2,3][(c>'0')+(c>'1')]for c in s)+2+len(s)-1 for s in [*open(0).read().split()][:-1]],sep='\n')
